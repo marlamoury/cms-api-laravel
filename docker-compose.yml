@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql_cms
+    restart: unless-stopped
+    ports:
+      - "3307:3306"   # Usei 3307 para evitar conflito com seu MySQL local
+    environment:
+      MYSQL_DATABASE: soffia_db
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - dbdata:/var/lib/mysql
+
+volumes:
+  dbdata:
