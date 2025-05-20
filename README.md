@@ -38,16 +38,3 @@ GET|POST|PUT|DELETE /api/posts
 
 GET|POST|PUT|DELETE /api/users
 
-yaml
-Copy
-Edit
-
----
-
-Se quiser, posso te enviar também:
-
-- 🧪 Arquivo de collection do Postman
-- 🧑‍💻 Anotações Swagger completas para as demais rotas
-- 📱 Frontend React Native
-
-Quer seguir com algum desses agora?
